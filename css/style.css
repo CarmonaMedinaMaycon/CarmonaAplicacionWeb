@@ -1,0 +1,29 @@
+
+/*header{ elementos
+    width: 100%;
+    padding: 5px;
+    
+}
+.header{ clases
+    width: 100%;
+    padding: 5px;
+}
+
+#header{ identificadores
+   
+    width: 100%;
+    padding: 5px; 
+}*/
+
+/*estilos en linea es cuando usas en la misma etiqueta la palabra style*/
+
+
+/*important lo pones adelante de los atributos ya sean clases etc*/
+.border-danger-img{
+    background-color: mediumvioletred !important;
+}
+
+
+.text-brown{
+    color:chocolate
+}
