@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caliente Basquet</title>
+    <link rel="shortcut icon" href="./../assets/img/caliente-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../css/styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./../assets/img/caliente-icon.png" width="25" height="25" alt="APUESTAS-FOOBALL-DEPORTES-APUESTAS MORELOS"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary" aria-current="page" href="./../index.html"><u>Inicio</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./fut.html">Futbol</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./basque.html">Basquetbol</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./voly.html">Volybol</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <b class="text-nigth">$2,000</b>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        
+        <div class="row my-2">
+            <div class="col-12 col-md-12">
+                <section id="apuestas" class="shadow-sm p-2 mb-5 bg-body rounded">
+                    <center><b>HAGAN SUS APUESTAAAS, HAGANSE RICOS CON UN POCO DE SUERTEEEE</b></center>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12">
+                            <form class="form-group">
+                                <div class="row text-center">
+                                    <div class="col-5">
+                                        <img src="../assets/img/basketball/Chicago.png" class="img-thumbnail"
+                                        alt="LOS BULLS EL MEJOR EQUIPO" id="equipos">
+                                        <br>
+                                        <b>The Chicago Bulls</b>
+                                        <br><br>
+                                        <label for="resultado"><b>Resultado</b></label>
+                                        <br>
+                                        <input type="number" id="resultado" class="form-control"
+                                        placeholder="Canastas..." required>
+                                    </div>
+                                    <div class="col-2 text-center justify-content-center align-self-center">
+                                        <b>VS</b>
+                                    </div>
+                                    <div class="col-5">
+                                        <img src="../assets/img/basketball/Lakers.png" class="img-thumbnail"
+                                        alt="the lakers los mejores, the master" id="equipos">
+                                        <br>
+                                        <b>The Lakers</b>
+                                        <br><br>
+                                        <label for="resultado"><b>Resultado</b></label>
+                                        <br>
+                                        <input type="number" id="resultado" class="form-control"
+                                        placeholder="Canastas..." required>
+                                    </div>
+                                    <div class="col-12 mt-5 text-center">
+                                        <button class="btn btn-primary text-center" type="submit">Apostar</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Anuncios -->
+            
+        </div>
+    </div>
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
